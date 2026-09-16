@@ -17,6 +17,6 @@ int main() {
         dp[i]=max(dp[i-2]+monedas[i], dp[i-1]);
     }
     cout<<dp[6]<<endl;
-
+    // siempre se le suma a las dimensiones del dp uno más para reservar lo primero 0
 
 }
