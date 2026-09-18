@@ -14,7 +14,7 @@ int main() {
     //llenamos el dp
     for (int i=0;i<n+1; i++) dp[i][0]=1;
     for (int j=1;j<totalA+1; j++) dp[0][j]=0;
-
+     //falta completar, de paso tambien el de dolares e intentar hacer unos tú solo
     for (int i=1; i<n+1; i++) {
         for (int j=1; j<totalA+1; j++) {
             if (j<numActas[i]) {
