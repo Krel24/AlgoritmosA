@@ -224,3 +224,13 @@ void mochilaAG(int *paq,int n,int peso) {
 
     }
 }
+
+int main() {
+    int paq[]={1,2,2,12,4};
+    int n=sizeof(paq)/sizeof(paq[0]);
+    int peso=15;
+
+    mochilaAG(paq,n,peso);
+
+    return 0;
+}
